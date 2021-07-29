@@ -89,10 +89,10 @@ def client_code(factory: AbstractFactory) -> None:
 
 
 if __name__ == '__main__':
-    print('Client: Testing the same client code with the first factory type:')
+    print('Client: Testing the same client code with the first 1.factory type:')
     client_code(Factory1())
 
     print()
 
-    print('Client: Testing the same client code with second factory type:')
+    print('Client: Testing the same client code with second 1.factory type:')
     client_code(Factory2())

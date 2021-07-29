@@ -146,10 +146,10 @@ if __name__ == "__main__":
     """
     Клиентский код может работать с любым конкретным классом фабрики.
     """
-    print("Client: Testing client code with the first factory type:")
+    print("Client: Testing client code with the first 1.factory type:")
     client_code(ConcreteFactory1())
 
     print("\n")
 
-    print("Client: Testing the same client code with the second factory type:")
+    print("Client: Testing the same client code with the second 1.factory type:")
     client_code(ConcreteFactory2())
